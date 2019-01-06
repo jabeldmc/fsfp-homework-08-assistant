@@ -1,2 +1,10 @@
-# fsfp-homework-08-assistant
-Full Stack Flex Program Homework 08: Assistant
+# fsfp-homework-8-assistant
+
+Full Stack Flex Program Homework 8: Assistant
+
+
+# History
+
+## Build 1
+
+* Completed basic features.
