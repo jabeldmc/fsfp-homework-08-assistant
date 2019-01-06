@@ -60,6 +60,13 @@ doConcertThis = function( artistName ) {
 
             console.log();
             console.log( `${ artistName }'s upcoming events:` );
+
+            if ( events.length === 0 ) {
+                console.log();
+                console.log( 'None :(' );
+                return;
+            }
+
             console.log();
             events.forEach(
                 ( event , eventIndex ) => {
@@ -292,7 +299,7 @@ doHelp = function() {
     console.log();
     console.log( 'I understand the following commands:' );
     console.log( '    concert-this "Artist Name"' );
-    console.log( '        I will look for the artist\'s upcoming concerts in Bandsintown.' );
+    console.log( '        I will look for the artist\'s upcoming concerts in Bandisintown.' );
     console.log( '    spotify-this-song "Song Name"' );
     console.log( '        I will look for song details in Spotify.' );
     console.log( '    movie-this "Movie Name"' );
