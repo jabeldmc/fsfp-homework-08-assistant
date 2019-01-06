@@ -127,7 +127,7 @@ node liri.js do-what-it-says
 
 LIRI in action:
 
-~[node liri.js do-what-it-says](readme/do-what-it-says.png)
+![node liri.js do-what-it-says](readme/do-what-it-says.png)
 
 
 
