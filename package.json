@@ -1,0 +1,26 @@
+{
+  "name": "fsfp-homework-8-assistant",
+  "version": "1.0.0",
+  "description": "Full Stack Flex Program Homework 8: Assistant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jabeldmc/fsfp-homework-8-assistant.git"
+  },
+  "keywords": [],
+  "author": "jabeldmc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jabeldmc/fsfp-homework-8-assistant/issues"
+  },
+  "homepage": "https://github.com/jabeldmc/fsfp-homework-8-assistant#readme",
+  "dependencies": {
+    "dotenv": "6.2.0",
+    "request": "2.88.0",
+    "moment": "2.23.0",
+    "node-spotify-api": "1.0.7"
+  }
+}
